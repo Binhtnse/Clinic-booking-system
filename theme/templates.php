@@ -7,37 +7,20 @@
           global $setDefault; 
            $user = New User();
            $singleuser = $user->single_user($_SESSION['ADMIN_USERID']);
-
-            // if (currentpage()!="invoices" || currentpage()!="quotes" ) {
-            //   # code...
-            //   unset($_SESSION['admin_gcCart']);
-            //   unset($_SESSION['ClientID']);
-
-              
-            // }
            echo 'Dental Clinic';
 
           ?>
         </title>
        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <!-- Bootstrap 3.3.5 -->
 
         <link rel="stylesheet" href="<?php echo web_root;?>fullcalendar/fullcalendar.min.css" />
         <link rel="stylesheet" href="<?php echo web_root;?>bootstrap/css/bootstrap.min.css">
-        <!-- Font Awesome -->
         <link rel="stylesheet" href="<?php echo web_root;?>plugins/font-awesome/css/font-awesome.min.css">
- 
         <link rel="stylesheet" href="<?php echo web_root;?>dist/css/AdminLTE.min.css">
-        <!-- AdminLTE Skins. Choose a skin from the css/skins
-             folder instead of downloading all of them to reduce the load. -->
         <link rel="stylesheet" href="<?php echo web_root;?>dist/css/skins/_all-skins.min.css">
-        <!-- iCheck -->
         <link rel="stylesheet" href="<?php echo web_root;?>plugins/iCheck/flat/blue.css">
-        <!-- Morris chart -->
         <link rel="stylesheet" href="<?php echo web_root;?>plugins/morris/morris.css">
-        <!-- jvectormap -->
         <link rel="stylesheet" href="<?php echo web_root;?>plugins/jvectormap/jquery-jvectormap-1.2.2.css">
-        <!-- Date Picker -->
         <link href="<?php echo web_root; ?>plugins/datepicker/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
 
         <link rel="stylesheet" href="<?php echo web_root;?>plugins/datatables/jquery.dataTables.min.css">  
@@ -45,7 +28,6 @@
         <link rel="stylesheet" href="<?php echo web_root; ?>plugins/select2/select2.css"> 
 
         <link rel="stylesheet" href="<?php echo web_root; ?>plugins/teeth/style.css"> 
-        <!-- <link rel="stylesheet" href="<?php echo web_root; ?>plugins/calendar/style.css">  -->
         <link rel="stylesheet" href="<?php echo web_root;?>plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css"> 
         <link href="<?php echo web_root; ?>dist/css/jquery.treetable.css" rel="stylesheet">
         <link href="<?php echo web_root; ?>dist/css/jquery.treetable.theme.default.css" rel="stylesheet">
